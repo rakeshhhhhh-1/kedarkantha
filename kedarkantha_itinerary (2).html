@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedarkantha Package Final</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f5f5f5;
+            padding: 0;
+        }
+        
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            background: white;
+            margin: 0 auto;
+            padding: 20mm;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        .header-img {
+            width: 100%;
+            height: 200px;
+            background: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800') center/cover;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        
+        .day-section {
+            margin-bottom: 25px;
+            page-break-inside: avoid;
+        }
+        
+        .day-title {
+            background: #667eea;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .day-content {
+            padding: 10px 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .time-slot {
+            margin: 8px 0;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        .time {
+            font-weight: 600;
+            color: #764ba2;
+        }
+        
+        .location-img {
+            width: 100%;
+            height: 150px;
+            border-radius: 8px;
+            margin: 10px 0;
+            object-fit: cover;
+        }
+        
+        .taj-img {
+            background: url('https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600') center/cover;
+        }
+        
+        .delhi-img {
+            background: url('https://images.unsplash.com/photo-1587474260584-136574528ed5?w=600') center/cover;
+        }
+        
+        .mountains-img {
+            background: url('https://images.pexels.com/photos/7846473/pexels-photo-7846473.jpeg') center/cover;
+        }
+        
+        .rishikesh-img {
+            background: url('https://images.pexels.com/photos/7542627/pexels-photo-7542627.jpeg') center/cover;
+        }
+        
+        .highlight {
+            background: #ffeaa7;
+            padding: 10px 15px;
+            border-radius: 6px;
+            margin: 10px 0;
+            font-weight: 500;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            .page {
+                width: 100%;
+                margin: 0;
+                box-shadow: none;
+                padding: 15mm;
+            }
+            .day-section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- Header -->
+        <div class="header">
+            <h1>🏔️ Kedarkantha Package Final</h1>
+            <p>19th Dec - 31st Dec 2025</p>
+            <div class="header-img"></div>
+        </div>
+        
+        <!-- Day 1 -->
+        <div class="day-section">
+            <div class="day-title">19th Dec - Friday | Departure</div>
+            <div class="day-content">
+                <div class="time-slot"><span class="time">8:45 PM</span> - Train from Ernakulam Town to Agra (Himsagar Express)</div>
+                <div class="time-slot"><span class="time">Arrival:</span> Reach Agra by 5 PM on 21st Sunday + Food</div>
+            </div>
+        </div>
+        
+        <!-- Day 2 -->
+        <div class="day-section">
+            <div class="day-title">21st Dec - Sunday | Agra</div>
+            <div class="day-content">
+                <div class="time-slot">Stay at Agra</div>
+                <div class="highlight">🏨 The Hosteller Staycation Booked</div>
+            </div>
+        </div>
+        
+        <!-- Day 3 -->
+        <div class="day-section">
+            <div class="day-title">22nd Dec - Monday | Agra → Delhi</div>
+            <div class="location-img taj-img"></div>
+            <div class="day-content">
+                <div class="time-slot"><span class="time">Morning:</span> Tajmahal Visit</div>
+                <div class="time-slot"><span class="time">Travel:</span> Agra to Delhi (3 to 3:30 hrs)</div>
+                <div class="time-slot"><span class="time">Afternoon:</span> Lunch @ Delhi</div>
+                <div class="time-slot"><span class="time">Till 5 PM:</span> India Gate / Qutub Minar / Humayun's Tomb / Jama Masjid / Delhi Market</div>
+                <div class="time-slot"><span class="time">After 5 PM:</span> Hauz Khas / Noida Night Life + Pub + Dinner</div>
+                <div class="time-slot"><span class="time">11:45 PM:</span> Night Train Delhi to Dehradun - Reach by 23rd Morning 5:45 AM</div>
+            </div>
+            <div class="location-img delhi-img"></div>
+        </div>
+        
+        <!-- Day 4-8 -->
+        <div class="day-section">
+            <div class="day-title">23rd Dec (Tuesday) to 27th Dec (Saturday) | Trek</div>
+            <div class="location-img mountains-img"></div>
+            <div class="day-content">
+                <div class="time-slot">Dehradun to Dehradun</div>
+                <div class="highlight">🏔️ Package Booked: Sar Outdoors</div>
+                <div class="time-slot"><span class="time">27th Night:</span> Stay at Dehradun (Plans may change according to arrival)</div>
+            </div>
+        </div>
+        
+        <!-- Day 9 -->
+        <div class="day-section">
+            <div class="day-title">28th Dec - Sunday | Rishikesh</div>
+            <div class="location-img rishikesh-img"></div>
+            <div class="day-content">
+                <div class="time-slot"><span class="time">Morning:</span> Check Out</div>
+                <div class="time-slot"><span class="time">Day Activities:</span> Rishikesh River Rafting / Bungee Jumping</div>
+                <div class="time-slot"><span class="time">Night:</span> Stay or Night Out</div>
+            </div>
+        </div>
+        
+        <!-- Day 10 -->
+        <div class="day-section">
+            <div class="day-title">29th Dec - Monday | Return Journey</div>
+            <div class="day-content">
+                <div class="time-slot"><span class="time">6:00 AM:</span> Train from Rishikesh</div>
+                <div class="time-slot"><span class="time">Arrival:</span> Reach EKM at 31st Wednesday</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
